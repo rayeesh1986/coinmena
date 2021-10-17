@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coinmena/repos/static/css/main.1e5a109b.chunk.css",
+    "main.js": "/coinmena/repos/static/js/main.0e35bf1f.chunk.js",
+    "main.js.map": "/coinmena/repos/static/js/main.0e35bf1f.chunk.js.map",
+    "runtime-main.js": "/coinmena/repos/static/js/runtime-main.779e5577.js",
+    "runtime-main.js.map": "/coinmena/repos/static/js/runtime-main.779e5577.js.map",
+    "static/js/2.ddf0f236.chunk.js": "/coinmena/repos/static/js/2.ddf0f236.chunk.js",
+    "static/js/2.ddf0f236.chunk.js.map": "/coinmena/repos/static/js/2.ddf0f236.chunk.js.map",
+    "static/js/3.c89942ef.chunk.js": "/coinmena/repos/static/js/3.c89942ef.chunk.js",
+    "static/js/3.c89942ef.chunk.js.map": "/coinmena/repos/static/js/3.c89942ef.chunk.js.map",
+    "index.html": "/coinmena/repos/index.html",
+    "static/css/main.1e5a109b.chunk.css.map": "/coinmena/repos/static/css/main.1e5a109b.chunk.css.map",
+    "static/js/2.ddf0f236.chunk.js.LICENSE.txt": "/coinmena/repos/static/js/2.ddf0f236.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.779e5577.js",
+    "static/js/2.ddf0f236.chunk.js",
+    "static/css/main.1e5a109b.chunk.css",
+    "static/js/main.0e35bf1f.chunk.js"
+  ]
+}
