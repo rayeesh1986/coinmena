@@ -1,6 +1,6 @@
 let BASE_URL;
 
-BASE_URL = "https://cors-anywhere.herokuapp.com/https://gh-trending-api.herokuapp.com";
+BASE_URL = "https://gh-trending-api.herokuapp.com";
 
 const API_BASE_URL = `${BASE_URL}`;
 
