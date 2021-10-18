@@ -9,10 +9,13 @@ function App() {
     <>
       <div className="container-fluid">
         <div className="row">
+          {/*  component={Repos} */}
           <Router>
             <Switch>
-              <Route exact path="/repos" component={Repos} />
-              <Route exact path="/developers" component={Developers} />
+              <Route exact path="/repos" render={() => <Repos title="Trending"
+                discription="See what the GitHub community is most excited Today." />} />
+              <Route exact path="/developers" render={() => <Developers title="Trending"
+                discription="These are the developers building the hot tools today." />} />
               <Route path="/notfound" component={Notfound} />
               <Redirect to="/notfound" />
             </Switch>

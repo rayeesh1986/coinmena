@@ -17,8 +17,8 @@ const Repolist = ({ listingData }) => {
                                     </div>
 
                                     <div className="btn_m_con">
-                                        <a href="/" target="_blank" rel="noreferrer" className="btn_con"><i className="p_heart icon_data"></i>Sponsor</a>
-                                        <a href={data.url} target="_blank" rel="noreferrer" className="btn_con"><i className="p_heart_white icon_data"></i>Star</a>
+                                        <a href={`https://github.com/sponsors/${data.username}`} target="_blank" rel="noreferrer" className="btn_con"><i className="p_heart icon_data"></i>Sponsor</a>
+                                        <a href="/repos" className="btn_con"><i className="p_heart_white icon_data"></i>Star</a>
                                     </div>
                                 </div>
 

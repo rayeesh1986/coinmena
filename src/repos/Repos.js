@@ -5,8 +5,7 @@ import Navbarcon from '../header/Navbar';
 import Repolist from './Repolist';
 import AppUrl from '../config/AppUrl';
 import Loading from '../utils/Loading';
-const Repos = () => {
-
+const Repos = ({ title, discription }) => {
     const [dev, setDev] = useState({ devapi: [] });
     const [loading, setLoading] = useState(false);
     const { devapi: listingData } = dev;
@@ -30,9 +29,7 @@ const Repos = () => {
 
     return (
         <>
-            <Header
-                title="Trending"
-                discription="See what the GitHub community is most excited Today." />
+            <Header title={title} discription={discription} />
             <div className="container">
                 <div className="row">
                     <div className="col_full">

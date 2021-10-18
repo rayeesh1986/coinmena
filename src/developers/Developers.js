@@ -5,7 +5,7 @@ import Developerslist from './Developerslist';
 import Navbarcon from '../header/Navbar';
 import AppUrl from '../config/AppUrl';
 import Loading from '../utils/Loading';
-const Developers = () => {
+const Developers = ({ title, discription }) => {
 
     const [dev, setDev] = useState({ devapi: [] });
     const [loading, setLoading] = useState(false);
@@ -32,9 +32,7 @@ const Developers = () => {
     }
     return (
         <>
-            <Header
-                title="Trending"
-                discription="These are the developers building the hot tools today." />
+            <Header title={title} discription={discription} />
             <div className="container">
                 <div className="row">
                     <div className="col_full">
