@@ -12,7 +12,7 @@ function App() {
           {/*  component={Repos} */}
           <Router>
             <Switch>
-              <Route exact path="/repos" render={() => <Repos title="Trending"
+              <Route exact path="/repositories" render={() => <Repos title="Trending"
                 discription="See what the GitHub community is most excited Today." />} />
               <Route exact path="/developers" render={() => <Developers title="Trending"
                 discription="These are the developers building the hot tools today." />} />
